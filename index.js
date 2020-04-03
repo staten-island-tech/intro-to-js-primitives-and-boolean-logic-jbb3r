@@ -127,12 +127,12 @@ const add = function(x,y,z) {
 };
 console.log(add(...numbers)); */
 
-///////////Challenge 1
+//Challenge 1
 
 const names = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa","Richard"];
 const choose = names.filter(name => name.length < 5);
 
-///////////Challenge 2
+//Challenge 2
 
 const students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa","Richard"];
 console.log(students.includes('Junshen')); //false

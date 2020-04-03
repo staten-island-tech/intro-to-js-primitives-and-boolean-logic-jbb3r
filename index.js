@@ -47,7 +47,7 @@ let future = year * 2;
  */
 
  //help me im so confused//this is stoplight challenge
-let stoplight = "green";
+/*let stoplight = "green";
 if (stoplight === "green") {
     console.log("go");
 } else if (stoplight === "yellow") {
@@ -56,7 +56,6 @@ if (stoplight === "green") {
     console.log("stop");
 }
 
-//milk
 let kristyIntolerant = true;
 let baobaoIntolerant = false;
 
@@ -67,8 +66,6 @@ if(kristyIntolerant === true && baobaoIntolerant === true){
 } else{
     console.log("get milk");
 }
-
-//cupcake
 
 let temperature = 79;
 
@@ -81,3 +78,80 @@ if(temperature < 68) {
 } else if(temperature >76) {
     console.log("too hot");
 }
+
+fucntion test(); {
+    console.log("im a function");
+}
+test(); 
+
+const add = function(x,y) {
+    return x+y;
+};  
+
+add(10,20);
+
+const hello = function () {
+    console.log("hello");
+};
+const bye =function () {
+    console.log("bye");
+};
+const hyBye = function() {
+    hello();
+    bye();
+    hello();
+    bye();
+};
+hiBye(); 
+
+const name = "ihurushi"; 
+
+function displayName() {
+    const name ="kelly";
+
+    function sun() {
+        console.log(name);
+    }
+   
+    return sun();
+}
+const myFunc =displayName();
+myFunc();
+
+const names = ["aarthi","vicky","vincent","doyle","kelly"];
+names.forEach(name => console.log(el));  
+
+const numbers = [1,2,3];
+const add = function(x,y,z) {
+    return x + y + z;
+};
+console.log(add(...numbers)); */
+
+///////////Challenge 1
+
+const names = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa","Richard"];
+const choose = names.filter(name => name.length < 5);
+
+///////////Challenge 2
+
+const students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa","Richard"];
+console.log(students.includes('Junshen')); //false
+ 
+
+function checkAvailability(arr, val) {
+  return arr.some(arrVal => val === arrVal);
+}
+console.log(checkAvailability(students, 'Alan')); // true
+console.log(checkAvailability(students, 'Savva')); // false
+/// filter out all students whose names contain <5 characters
+/* const newArr = stidemts 
+    .push()
+    .forEach()
+    .Map();
+    */
+
+    //"includes" junshen
+
+    //Alan or Savva included in "same"
+
+
